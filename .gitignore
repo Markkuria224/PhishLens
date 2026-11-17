@@ -1,0 +1,38 @@
+﻿# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Local artifacts and temporary files
+*.tmp
+*.log
+
+# Environment secrets and configuration
+.env
+.secret
+
+# IDE specific
+.vscode/
+.idea/
+
+# PhishLens-specific
+.test-results/
+.pytest_cache/
+
+# Local PhishLens diagnostic and assessment data
+integration_failure.txt
+phishlens_assessment*.json
+
+# Generated package metadata
+**/*.egg-info/
